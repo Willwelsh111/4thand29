@@ -7,6 +7,7 @@ body {
     color: #F5F5F5;
     line-height: 1.6;
 }
+/* setting background color and fonts for the body */
 
 a {
     color: #B18EFF;
@@ -24,6 +25,8 @@ a:hover {
     background-color: #241773;
     padding: 20px;
 }
+
+/* add padding for header and background color */
 
 .logo {
     width: 80px;
@@ -61,6 +64,8 @@ a:hover {
     color: #FDB927;
 }
 
+/* adding hover element */
+
 /* Buttons */
 .social-button {
     background-color: #241773;
@@ -72,6 +77,8 @@ a:hover {
     cursor: pointer;
     transition: background 0.3s;
 }
+
+/* making buttons different color and add padding */
 
 .social-button:hover {
     background-color: #3b2a89;
@@ -85,11 +92,15 @@ a:hover {
     margin-top: 30px;
 }
 
+/* adding styles for slogan */
+
 .description {
     max-width: 600px;
     margin: 20px auto;
     text-align: center;
 }
+
+/* make description fixed width */
 
 /* Stadium Section */
 .stadium-section {
@@ -105,6 +116,8 @@ a:hover {
     margin-top: 10px;
 }
 
+/* adding width to stadium image */
+
 /* Footer */
 footer {
     background-color: #111;
@@ -114,3 +127,5 @@ footer {
     color: #888;
     font-size: 0.9rem;
 }
+
+/* adding background color to footer */
