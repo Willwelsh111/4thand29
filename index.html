@@ -2,83 +2,64 @@
 <html lang="en">
 
 <head>
- <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HD12J6MMTZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HD12J6MMTZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-HD12J6MMTZ');
+  </script>
 
-  gtag('config', 'G-HD12J6MMTZ');
-</script>
- <meta charset="UTF-8">
-    <title>Baltimore Ravens Fan Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baltimore Ravens Fan Page</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <!-- Main Content Table -->
-    <table>
-        <tr>
-            <!-- Left Side Image -->
-            <td>
-                <img src="image 1.jpg" alt="Baltimore Ravens Logo" width="120">
-            </td>
+  <!-- Main Content Table -->
+  <div class="header">
+    <img src="./images/image_1.jpg" alt="Baltimore Ravens Logo" class="logo">
+    <h1>4th & 29</h1>
+  </div>
 
-            <!-- Right Side Text -->
-            <td>
-                <h1>4th & 29</h1>
-            </td>
-        </tr>
-    </table>
+  <ul class="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="teamhistory.html">Team History</a></li>
+    <li><a href="contactus.html">Contact Us</a></li>
+  </ul>
 
-    <h2>Baltimore Ravens Fan Page</h2>
-<!-- Navigation -->
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="teamhistory.html">Team History</a></li>
-        <li><a href="contactus.html">Contact Us</a></li>
-    </ul>
+  <h2>Baltimore Ravens Fan Page</h2>
+  <p>
+    <button class="social-button">Instagram</button>
+  </p>
 
-    <p>
-        <button>Instagram</button>
-    </p>
+  <!-- Navigation -->
+  
 
-    <!-- Description -->
-    <p>
-Play Like a Raven! 
-</p>
-<p>
+  
+
+  <!-- Description -->
+  <p class="slogan">Play Like a Raven!</p>
+  <p class="description">
     Learn about our team, its history, and what makes the Baltimore Ravens special.
-Whether you're a long-time fan or just getting into football, this page is your go-to source for all things
-Ravens.
-    </p>
+    Whether you're a long-time fan or just getting into football, this page is your go-to source for all things
+    Ravens.
+  </p>
 
-    <br>
+  <!-- Stadium Section -->
+  <div class="stadium-section">
+    <p><b>M&T Bank Stadium</b></p>
+    <img src="./images/image_2.jpg" alt="M&T Bank Stadium" class="stadium-img">
+  </div>
 
-    <!-- Stadium Section -->
-    <table>
-        <tr>
-            <td>
-                    <p><b>M&T Bank Stadium</b></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                 <img src="image 2.jpg" alt="M&T Bank Stadium" width="500">
-            </td>
-        </tr>
-    </table>
-
-    <br>
-
-    
-    
-
-    <br>
-
-    <!-- Footer -->
-    <p>Copyright 2025. All Rights Reserved.</p>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025. All Rights Reserved.</p>
+  </footer>
 
 </body>
+
 </html>

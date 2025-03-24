@@ -1,0 +1,116 @@
+/* Reset & Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0C0B0C;
+    color: #F5F5F5;
+    line-height: 1.6;
+}
+
+a {
+    color: #B18EFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #241773;
+    padding: 20px;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #FDB927;
+}
+
+/* Navigation */
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.nav a:hover {
+    background-color: #241773;
+    color: #FDB927;
+}
+
+/* Buttons */
+.social-button {
+    background-color: #241773;
+    color: #FDB927;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.social-button:hover {
+    background-color: #3b2a89;
+}
+
+/* Description */
+.slogan {
+    font-size: 1.2rem;
+    color: #B18EFF;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.description {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Stadium Section */
+.stadium-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.stadium-img {
+    width: 90%;
+    max-width: 600px;
+    border: 4px solid #241773;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    color: #888;
+    font-size: 0.9rem;
+}

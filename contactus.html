@@ -2,72 +2,66 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HD12J6MMTZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HD12J6MMTZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-HD12J6MMTZ');
+    </script>
 
-  gtag('config', 'G-HD12J6MMTZ');
-</script>
-    <meta charset="UTF-8">
-    <title>Contact Us - Baltimore Ravens Fan Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Baltimore Ravens Fan Page</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <!-- Main Content Table -->
-    <table>
-        <tr>
-            <!-- Left Side Image -->
-            <td>
-                <img src="image 1.jpg" alt="Baltimore Ravens Logo" width="120">
-            </td>
+    <!-- Header -->
+    <div class="header">
+        <img src="./images/image_1.jpg" alt="Baltimore Ravens Logo" class="logo">
+        <h1>Contact Us</h1>
+    </div>
 
-            <!-- Right Side Title -->
-            <td>
-                <h1>Contact Us</h1>
-            </td>
-        </tr>
-    </table>
-    <h2>Get in Touch with 4th & 29</h2>
+    <!-- Navigation -->
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="teamhistory.html">Team History</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
 
-    <br>
+    <h2>Get in Touch with 4th & 29</h2>
 
-    <!-- Navigation -->
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="teamhistory.html">Team History</a></li>
-        <li><a href="contactus.html">Contact Us</a></li>
-    </ul>
+    
 
-    <br>
+    <!-- Contact Details -->
+    <div class="description">
+        <p><strong>Phone:</strong> 410-123-4567</p>
+        <p><strong>Email:</strong> 4thand29@gmail.com</p>
+        <p><strong>Address:</strong> 123 Main St., Baltimore, MD 21230</p>
+    </div>
 
-    <!-- Contact Details -->
-    <p><b>Phone:</b> 410-123-4567</p>
-    <p><b>Email:</b> 4thand29@gmail.com</p>
-    <p><b>Address:</b> 123 Main St., Baltimore, MD 21230</p>
+    <!-- Experience Rating Section -->
+    <div class="description">
+        <h2>Rate Your Experience</h2>
+        <form action="#">
+            <label>
+                <input type="radio" name="rating" value="good"> Good
+            </label><br>
+            <label>
+                <input type="radio" name="rating" value="bad"> Bad
+            </label><br><br>
 
-    <br>
+            <button type="submit" class="social-button">Submit Rating</button>
+        </form>
+    </div>
 
-    <!-- Experience Rating Section -->
-    <h2>Rate Your Experience</h2>
-    <form action="#">
-        <label>
-            <input type="radio" name="rating" value="good"> Good
-        </label><br>
-        <label>
-            <input type="radio" name="rating" value="bad"> Bad
-        </label><br><br>
-
-        <button type="submit">Submit Rating</button>
-    </form>
-
-    <br>
-
-    <!-- Footer -->
-    <p>Copyright 2025. All Rights Reserved.</p>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025. All Rights Reserved.</p>
+    </footer>
 
 </body>
 
