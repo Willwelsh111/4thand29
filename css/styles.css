@@ -136,6 +136,13 @@ a:hover {
     border: 4px solid #241773;
     border-radius: 8px;
   }
+  .stadium-img-team {
+    width: 90%;
+    max-width: 600px;
+    border: 4px solid #241773;
+    border-radius: 8px;
+    margin-top: 10px;
+}
   
   
   
