@@ -106,15 +106,40 @@ a:hover {
 .stadium-section {
     text-align: center;
     margin: 40px 0;
-}
-
-.stadium-img {
-    width: 90%;
-    max-width: 600px;
+  }
+  
+  .stadium-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    max-width: 300px;
+  }
+  
+  .image-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .stadium-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
     border: 4px solid #241773;
     border-radius: 8px;
-    margin-top: 10px;
-}
+  }
+  
+  
+  
+  
 
 /* adding width to stadium image */
 
